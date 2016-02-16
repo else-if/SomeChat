@@ -56,6 +56,7 @@ namespace SomeChat
     
         }
 
+        
         private void SendButton_Click(object sender, EventArgs e)
         {
             websocket.Send(textBox1.Text);
